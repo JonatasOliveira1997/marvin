@@ -1,5 +1,3 @@
-function penultimo(palavra) {
-    var palavras = palavra;
-    return palavras.substring(5, 4)
-    //isto serve apenas para uma string com 6 letras
+function juntar(num1, num2) {
+   return (num1 + num2.toString())
 }
