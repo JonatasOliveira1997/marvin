@@ -1,3 +1,4 @@
-function penultimo(palavra) {
-   return palavra.substr(-2,1)
+function iniciais(palavra) {
+    const palavras = palavra;
+    return palavras.substring(3,0)
 }
