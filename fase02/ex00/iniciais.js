@@ -1,4 +1,3 @@
-function iniciais(palavra) {
-    var palavras = palavra;
-    return palavras.substring(3,0)
+function penultimo(palavra) {
+   return palavra.substr(-2,1)
 }
